@@ -2,7 +2,6 @@
   "name": "learnmotion",
   "version": "1.0.0",
   "description": "",
-  "main": "main.js",
   "scripts": {
     "parcelDev": "parcel index.html",
     "parcelBuild": "parcel build index.html",
