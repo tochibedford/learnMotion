@@ -1,0 +1,103 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+html{
+    font-size: 62.5%;
+    font: Nunito;
+    font-family: 'Raleway', sans-serif;
+}
+
+body{
+    width: 100%;
+}
+
+.pageSection{
+    height: 100vh;
+    font-size: 5em;
+    width: 100%;
+}
+
+.pageSection > h1{
+    text-transform: uppercase;
+}
+
+.section1{
+    background: #03434e;
+    color: #ffffff;
+    position: sticky;
+    top: 0;
+    z-index: -1;
+}
+
+.section2{
+    background: #041730;
+    color: #ffffff;
+    display: flex;
+    height: auto;
+
+}
+
+.section2Left{
+    overflow-y: hidden;
+}
+
+.section3{
+    background: #265158;
+    color: #ffffff;
+    width: 100%;
+}
+
+.leftSide{
+    flex: 1;
+    width: 50%;
+    min-height: max-content;
+
+    padding: 4em;
+}
+
+.stickyText{
+    position: sticky;
+    top: 0;
+}
+
+.rightSide{
+    flex: 1;
+    min-width: 50%;
+    
+}
+
+.scrollCheckerBar{
+    width: 0%;
+    height: 15px;
+    background-color: #910059;
+    position: fixed;
+    top: 0;
+    left: 0;
+    
+}
+
+.gallery{
+    background: green;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.galleryItem{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.galleryItem > img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+
+}
